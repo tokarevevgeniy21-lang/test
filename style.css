@@ -1,0 +1,16 @@
+@media print {
+    .navbar, .card-header button, .btn {
+        display: none !important;
+    }
+    
+    .card {
+        border: none;
+        box-shadow: none;
+    }
+    
+    .card-header {
+        background-color: white !important;
+        color: black !important;
+        border-bottom: 2px solid #000;
+    }
+}
